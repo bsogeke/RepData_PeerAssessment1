@@ -5,6 +5,8 @@ date: "7 May 2016"
 output: html_document
 keep_md: true
 ---
+```{r setoptions, echo=TRUE}
+```
 
 ## Loading and preprocessing the data
 1. Loading Data
