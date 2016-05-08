@@ -17,11 +17,11 @@ Check if files exist, if not, unzip file and load data into a dataframe
 ```{r}
 
 if(!file.exists("activity.csv")) {
-  if(file.exists("activity.zip")) {
-    unzip("activity.zip")
-    unlink("activity.zip")
+  if(file.exists("repdata-data-activity.zip")) {
+    unzip("repdata-data-activity.zip")
+    unlink("repdata-data-activity.zip")
   } else {
-    stop("File activity.zip cannot be found in current directory.")
+    stop("File repdata-data-activity.zip cannot be found in current directory.")
   }
 }
 

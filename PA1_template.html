@@ -128,11 +128,11 @@ $(document).ready(function () {
 <li>Processing Data Check if files exist, if not, unzip file and load data into a dataframe</li>
 </ol>
 <pre class="r"><code>if(!file.exists(&quot;activity.csv&quot;)) {
-  if(file.exists(&quot;activity.zip&quot;)) {
-    unzip(&quot;activity.zip&quot;)
-    unlink(&quot;activity.zip&quot;)
+  if(file.exists(&quot;repdata-data-activity.zip&quot;)) {
+    unzip(&quot;repdata-data-activity.zip&quot;)
+    unlink(&quot;repdata-data-activity.zip&quot;)
   } else {
-    stop(&quot;File activity.zip cannot be found in current directory.&quot;)
+    stop(&quot;File repdata-data-activity.zip cannot be found in current directory.&quot;)
   }
 }
 
