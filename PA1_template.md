@@ -2,11 +2,6 @@
 Bosun Sogeke  
 `r format(Sys.Date())`  
 
-
-
-
-
-
 ## Loading and preprocessing the data
 1. Loading Data
 
