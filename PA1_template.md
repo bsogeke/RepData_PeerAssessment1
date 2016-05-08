@@ -20,6 +20,7 @@ library(plyr)
 ```
 ## Warning: package 'plyr' was built under R version 3.2.4
 ```
+
 2. Processing Data
 Check if files exist, if not, unzip file and load data into a dataframe
 

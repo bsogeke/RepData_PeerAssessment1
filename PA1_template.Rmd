@@ -14,6 +14,7 @@ keep_md: true
 library(ggplot2)
 library(plyr)
 ```
+
 2. Processing Data
 Check if files exist, if not, unzip file and load data into a dataframe
 ```{r}
